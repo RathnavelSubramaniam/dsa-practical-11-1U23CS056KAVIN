@@ -28,7 +28,7 @@ public int pop()
 int defaultvalue = -1;
 if(isEmpty())
 {
- System.out.println("Stack is Underflow. No elements to be popped in Empty stack");   
+ System.out.println("Stack is Underflow. No elements to be popped in Empty Stack");   
 }
 else{
     int poppeditem = stack[top];
